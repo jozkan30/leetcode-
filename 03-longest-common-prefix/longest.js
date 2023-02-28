@@ -7,7 +7,10 @@ var longestCommonPrefix = function(strs) {
       while(strs[i].indexOf(prefix) !==0 )
       prefix = prefix.substring(0,prefix.length-1)
     }
-    return prefix
+    return prefix 
 };
 
 console.log(longestCommonPrefix(["flower","flow","flight"]))
+
+console.log(longestCommonPrefix(["milk","mike","minute"]))
+
