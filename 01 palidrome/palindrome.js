@@ -11,7 +11,6 @@ let isPalindrome = (x) => {
 };
 console.log(isPalindrome("hello"));
 
-// // If target value is a integer. Must first convert to string.
 
 // // let isPalindrome = function (x) {
 // //   let num =  x.toString()
