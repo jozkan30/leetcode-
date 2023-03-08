@@ -1,6 +1,5 @@
 // 58. Length of Last Word
 
-
 let findLast = (word) =>{
     let last = ''
     let arr = word.split(' ')
@@ -8,7 +7,6 @@ let findLast = (word) =>{
     let end = newArr.length - 1
     last = newArr[end]
     let x =  last.split('')
-    
     return x.length
 }
     

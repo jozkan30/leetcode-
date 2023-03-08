@@ -4,13 +4,11 @@
 
 var addTwoNumbers = function(l1, l2) {
     let num1 = l1.reduce((x,y)=> (x * 10) + y)
-    let num2 = l2.reduce((a,b)=>( a * 10) + b)
+    let num2 = l2.reduce((a,b)=>(a * 10) + b)
     let ex =  num1 + num2
     let digits = Array.from(String(ex), Number)
     digits.reverse()
     return digits
   };
-
-
   console.log(addTwoNumbers([2,4,3], [5,6,4]))
   console.log(addTwoNumbers([9,9,9,9,9,9,9], [9,9,9,9]))
